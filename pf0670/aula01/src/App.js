@@ -1,17 +1,17 @@
 import './App.css';
-import Cabececalho from './Cabecalho';
 
-function App() {
+import Cabecalho from './Cabecalho';
+
+export default function App() {
 
   const nomeCurso = '1TDS'
 
   return (
 
     <div className="App">
-      <Cabececalho/>
+      <Cabecalho/>
     </div>
   );
 
 }
 
-export default App;
