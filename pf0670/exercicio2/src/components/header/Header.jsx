@@ -4,8 +4,11 @@ import './Header.css'
 export default function Header() {
     return (
         <header>
-            <h1>Exercício / Estilização JSX</h1>
-            <p>Componentizando</p>
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Careers</a>
+            <a href="#">Contact</a>
+            <a href="#">More</a>
         </header>
     )
 }
