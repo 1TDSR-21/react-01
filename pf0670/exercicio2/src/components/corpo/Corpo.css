@@ -1,0 +1,37 @@
+section{
+    display: flex;
+    flex-direction: column;
+    background-color: blanchedalmond;
+    font-size: 1.5em;
+    text-align: justify;
+    color: blue;
+    align-items: baseline;
+    
+}
+
+section img{
+    display: block;
+    margin:auto;
+    transform: scale(50%);
+    transition: ease-in-out transform 0.2s;
+
+}
+
+section p:hover{
+    background-color: cornflowerblue;
+}
+
+section img:hover{
+    transform: scale(100%);
+}
+
+.exemplo-1{
+    border-radius: 5px;
+    font-size: 0.8em;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: cadetblue;
+}
+
+.exemplo-1 p{
+    text-align: center;
+}
