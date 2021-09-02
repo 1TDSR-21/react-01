@@ -26,6 +26,9 @@ section img:hover{
 }
 
 .exemplo-1{
+    border-radius: 5px;
+    font-size: 0.8em;
+    font-family: 'Courier New', Courier, monospace;
     background-color: cadetblue;
 }
 

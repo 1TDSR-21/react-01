@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import imgLogoReact from '../img/logo192.png'
+import Itens from '../itens/Itens'
 import './Corpo.css'
 
 export default function Corpo() {
@@ -32,6 +33,9 @@ export default function Corpo() {
                 <p>Variável   :{valorVariavel}</p>
                 <h3>Use state é um Hooke de React!</h3>
                 <button onClick={() => aumentar()}>AUMENTAR</button>
+
+                <Itens valor={valorState} plus={aumentar} />
+
             </div>
 
         </section>
