@@ -1,0 +1,27 @@
+section {
+    display: flex;
+
+}
+
+.corpo img {
+    display: block;
+    margin: auto;
+    transform: scale(50%);
+    transition: ease-in-out transform 0.2s;
+}
+
+.corpo img:hover{
+    transform: scale(100%);
+}
+
+.corpo p {
+    color: green;
+    padding: 5px;
+    text-decoration: underline;
+}
+
+.exemplo-1 {
+    background-color: cadetblue;
+
+}
+

@@ -1,0 +1,23 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5em;
+    background-color: brown;
+    height: 15vh;
+}
+
+header a {
+    text-decoration: none;
+    color: blanchedalmond;
+    font-weight: 700;
+    padding: 0;
+    transition: ease-in padding 0.1s;
+    position: relative;
+}
+
+header a:hover {
+    background-color: burlywood;
+    padding: 2%;
+}
