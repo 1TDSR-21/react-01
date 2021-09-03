@@ -1,0 +1,16 @@
+section{
+    background-color: blanchedalmond;
+    font-size: 1.5em;
+    text-align: justify;
+    color: blue;
+    
+}
+
+section img{
+    display: block;
+    margin:auto;
+}
+
+section p:hover{
+    background-color: cornflowerblue;
+}
