@@ -1,0 +1,29 @@
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.container {
+    background-color: darkgray;
+    height: 1000px;
+    max-width:  1100px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0%;
+}
+
+.font-s{
+    text-align: justify;
+    font-family: 'Fira Code';
+    color: blue;
+}
+
+.foto{
+    height: 30vmin;    
+}
+
+.container1, .container2, .container3 {
+    margin: 0% 5% 5% 5%;
+    background-color: yellowgreen;
+}
