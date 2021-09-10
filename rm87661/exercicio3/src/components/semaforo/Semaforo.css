@@ -1,0 +1,14 @@
+#pare {
+    background-color: red;
+    visibility: hidden;
+
+}
+
+#siga {
+    background-color: green;
+}
+
+#atencao {
+    background-color: yellow;
+    visibility: hidden;
+}
