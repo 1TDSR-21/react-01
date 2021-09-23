@@ -7,5 +7,7 @@ export default function Footer() {
             <p>Desenvolvido por simplesmente o melhor Dev do Planeta Terra - VOCÊ!!</p>
             <p>Todos os direitos reservados. 2021&copy;</p>
         </footer>
+
+
     )
 }
