@@ -17,15 +17,13 @@ export const DivTarefa = styled.div`
 
 `
 
-
-
-export default function Tarefas() {
+export default function Tarefas(props) {
     return (
         <DivTarefa>
-            <h2>Relatório de Vendas</h2>
-            <p><b>Para: </b>Depto-Vendas</p>
-            <p><b>Descrição : </b>Levantar os valores das vendas deste mês.</p>
-            <p><b>Responsável : </b>André Garbini</p>
+            <h2>{props.titulo}</h2>
+            <p><b>Para: </b>{props.setor}</p>
+            <p><b>Descrição : </b>{props.descricao}</p>
+            <p><b>Responsável : </b>{props.responsavel}</p>
         </DivTarefa>
     )
 }
